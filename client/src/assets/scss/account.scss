@@ -1,0 +1,172 @@
+.account {
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        border-radius: 3px;
+    }
+
+    .ant-menu {
+        min-height: 400px;
+    }
+
+    .ant-menu-item {
+        margin: 5px !important;
+    }
+
+    .ant-form-item-control-input .ant-input-disabled {
+        color: black;
+    }
+
+    h6 {
+        margin-top: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    table td,
+    table th {
+        padding: 8px 40px;
+    }
+
+    table tr {
+        border-bottom: 0.5px ridge #ddd;
+        display: flex;
+
+        td:nth-child(2) {
+            flex: 1
+        }
+    }
+
+
+    table tr:last-child {
+        border: none;
+    }
+
+    table tr:first-child {
+        color: $SilverColor;
+        font-size: 12px;
+    }
+
+
+}
+
+.create_certificate {
+    .certificate img {
+        width: 100%;
+        position: relative;
+        box-shadow: rgb(0, 0, 0) 0px 0px 18px -11px
+    }
+
+    img {
+        width: 100%;
+        border: 2px solid transparent;
+    }
+
+    .ant-radio-wrapper-checked img {
+        border: 2px solid rgb(37, 63, 135);
+        box-shadow: rgb(0, 0, 0) 0px 0px 18px -11px
+    }
+
+    .ant-radio-inner {
+        display: none;
+    }
+
+
+    .position {
+        position: absolute;
+        top: 0%;
+        width: 100%;
+        bottom: 0%;
+        left: 0%;
+    }
+
+    .position>.ant-row>.ant-col {
+        position: absolute;
+    }
+
+    .position>.ant-row>.ant-col:first-child {
+
+        top: 10%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(2) {
+        top: 18%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(3) {
+        top: 25%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(4) {
+        top: 35%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(5) {
+        top: 45%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(6) {
+        top: 55%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(7) {
+        top: 60%;
+    }
+
+    .position>.ant-row>.ant-col:nth-child(8) {
+        bottom: 18%;
+    }
+
+    .CERTIFICATE {
+        font-size: 25px;
+        color: #525762;
+        font-weight: 400;
+        margin: 0;
+
+    }
+
+    .of_achievement {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .Certified {
+        font-size: 30px;
+        font-family: SilkScript;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .examinee_full_name {
+        font-size: 22px;
+    }
+
+
+    .certificate_description {
+        font-size: 13px;
+        font-style: italic;
+        font-weight: 700
+    }
+
+    .campaign_name {
+        margin: 0;
+    }
+
+    .test_campaign_name {
+        font-size: 13px;
+        font-weight: 400
+    }
+
+    .campaign_name::before {
+        content: '•';
+        color: rgb(255, 52, 118);
+        margin-right: 3px;
+    }
+
+    .address {
+        position: absolute;
+        bottom: 5%;
+        margin-top: 3%;
+        width: 70%;
+    }
+}

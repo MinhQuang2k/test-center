@@ -1,0 +1,33 @@
+.create_campaign {
+  .white_bg ul {
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+  }
+
+  .select_test {
+    .white_bg li,
+    .white_bg ul,
+    .ant-radio-group,
+    label {
+      width: 100%;
+    }
+
+    label {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+      padding: 10px 0;
+    }
+  }
+
+  .white_bg li {
+    p {
+      font-size: 1rem;
+    }
+
+    h6 {
+      color: $SilverColor;
+      font-size: 80%;
+      font-weight: 400;
+    }
+  }
+}

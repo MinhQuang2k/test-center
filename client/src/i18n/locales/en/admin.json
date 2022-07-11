@@ -1,0 +1,23 @@
+{
+    "User": "User",
+    "Setting": "Setting",
+    "Hello": "Hello",
+    "Name": "Name",
+    "Action": "Action",
+    "Notification": "Notification",
+    "Are_you_sure_you_want_to_delete_user": "Are you sure you want to delete user",
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Delete_successful": "Delete successful",
+    "Delete_failure": "Delete failure",
+    "Enter_keywords": "Enter keywords...",
+    "Search": "Search",
+    "Edit": "Edit",
+    "Edit_user": "Edit user",
+    "Password": "Password",
+    "Save": "Save",
+    "Logout": "Logout",
+    "The_Name_field_is_required": "The Name field is required",
+    "The_Email_field_is_required": "The Email field is required",
+    "The_Password_field_is_required": "The Password field is required"
+}

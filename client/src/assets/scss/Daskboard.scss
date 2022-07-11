@@ -1,0 +1,130 @@
+.dashboard {
+  .ant-row:nth-child(2) {
+    display: flex;
+
+    .ant-col>div {
+      height: 100%;
+    }
+  }
+
+  .white_bg {
+    .long_text {
+      color: $BtnHover;
+    }
+
+    h4 {
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+  }
+
+  .anticon-calendar {
+    margin-right: 5px;
+  }
+
+  .ant-picker-input>input:placeholder-shown {
+    height: 30px;
+  }
+
+  .exam_results {
+    .table {
+      overflow-x: scroll;
+    }
+
+    .table::-webkit-scrollbar {
+      display: none;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    table td,
+    table th {
+      padding: 8px 10px;
+    }
+
+    table tr {
+      border-bottom: 0.5px ridge #ddd;
+    }
+
+    table td:nth-child(2) {
+      display: flex;
+
+      .ant-progress {
+        margin: 0 10px;
+      }
+    }
+
+    table tr:last-child {
+      border-bottom: none;
+    }
+
+    table tr:first-child {
+      color: $SilverColor;
+      font-size: 12px;
+    }
+
+    table td:last-child span {
+      border-radius: 10rem;
+      background: #06ba02;
+      padding: 4px 7px;
+      color: white;
+    }
+  }
+}
+
+.card_profile {
+  border-radius: 6px;
+
+  .ant-card-meta-title {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .info_profile {
+    border: 1px dashed rgba(0, 0, 0, 0.125);
+    border-radius: 6px;
+    padding: 10px;
+    min-height: 82px;
+    min-width: 130px;
+  }
+
+  .ant-card-body {
+    padding: 20px
+  }
+}
+
+.card_test {
+  .pd_20 {
+    padding: 25px 20px;
+  }
+
+  .ant-col:nth-child(1)>div {
+    background-color: $PinkColor;
+  }
+
+  .ant-col:nth-child(2)>div {
+    background-color: $BlueColor;
+  }
+
+  .ant-col:nth-child(3)>div {
+    background-color: $yellowColor;
+  }
+
+  .ant-col:nth-child(4)>div {
+    background-color: $GreenColor;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-between;
+
+    img {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.layout--web {
+  .page--header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    height: 55px;
+
+    .ant-menu {
+      line-height: 55px;
+    }
+
+    .logo {
+      width: 100px;
+      margin-right: 15px;
+    }
+
+    .ant-menu-horizontal {
+      border-bottom: none;
+    }
+
+    img:nth-child(2) {
+      width: 30px;
+      margin-left: 10px;
+    }
+
+    .ant-btn {
+      background-color: transparent;
+      border-color: transparent;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  }
+
+  .Content {
+    height: 100vh;
+    margin-top: 80px;
+
+  }
+
+  .insert_test {
+    table {
+      width: 100%;
+    }
+
+    table td,
+    table th {
+      padding: 8px;
+      border-bottom: 0.5px ridge #ddd;
+    }
+
+    table tr:first-child {
+      color: $SilverColor;
+      font-size: 12px;
+    }
+  }
+}
+
+body {
+  background-color: #f2f3f7;
+}

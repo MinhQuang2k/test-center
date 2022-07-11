@@ -1,0 +1,165 @@
+.statistic {
+  .ant-menu {
+    border-bottom: none;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+
+  table {
+    width: 100%;
+
+    td,
+    th {
+      padding: 8px 0;
+    }
+
+    tr {
+      border-bottom: 0.5px ridge #ddd;
+    }
+
+    tr:last-child {
+      border-bottom: none;
+    }
+
+    tr:first-child {
+      color: $SilverColor;
+      font-size: 12px;
+    }
+
+    .anticon-delete {
+      color: red;
+    }
+
+    td:nth-child(3) .ant-progress {
+      margin: 0 15px;
+    }
+  }
+
+  .list_statistic {
+    td:nth-child(3) {
+      display: flex;
+    }
+  }
+
+  .answer_sheets {
+    p > span {
+      font-weight: 700;
+    }
+
+    a {
+      color: #212529;
+    }
+
+    tbody tr td:nth-child(2),
+    tbody tr td:nth-child(4),
+    td:nth-child(1) .anticon {
+      font-weight: 700;
+    }
+
+    tbody tr td:nth-child(4) {
+      color: rgb(6, 186, 2);
+    }
+  }
+}
+
+.results_statistic {
+  .pass_box {
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.35rem 0.6rem;
+  }
+
+  .pass {
+    background: #06ba02;
+  }
+
+  .un_pass {
+    background: #1b2150;
+  }
+
+  .ant-steps-item-description {
+    color: #212529 !important;
+  }
+
+  .anticon-field-time {
+    color: #2c4a9f;
+  }
+
+  .anticon-form {
+    color: #17a2b8;
+  }
+
+  .anticon-play-circle {
+    color: #28a745;
+  }
+
+  .anticon-close-circle {
+    color: #dc3545;
+  }
+
+  .ant-steps {
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+  }
+
+  .question_order {
+    font-size: 16px;
+    color: #686f7d;
+  }
+
+  .result_test {
+    span {
+      font-weight: 700;
+    }
+
+    .ant-btn {
+      width: 100%;
+    }
+
+    .point {
+      color: #06ba02;
+      font-weight: 700;
+    }
+
+    .point > span {
+      font-size: 42px;
+      line-height: 36px;
+      font-weight: 500;
+    }
+  }
+}
+
+.modal_result_statistic {
+  .ant-form-item-label > label {
+    width: 128px;
+  }
+
+  .ant-checkbox-group {
+    width: 100%;
+  }
+
+  .input_mail_send {
+    margin: 0;
+  }
+
+  .ant-space-align-baseline,
+  .ant-space .ant-space-item:nth-child(1) {
+    width: 100%;
+  }
+}
+.col-center {
+  text-align: center;
+}
+
+.box-head-result {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-save-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

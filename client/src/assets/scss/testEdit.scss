@@ -1,0 +1,117 @@
+@import './varible';
+.test-edit {
+  .btn-group {
+    display: flex;
+    justify-content: flex-end !important;
+    align-items: center;
+  }
+  .link {
+    background-color: #fff !important;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-right: 8px;
+    color: $primary-color !important;
+  }
+  .ant-btn-group .ant-btn-primary {
+    background: $primary-color !important;
+    border: none !important;
+  }
+  .ant-btn-group .ant-btn-primary:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #fff !important;
+  }
+  .ant-btn-group .ant-btn-primary:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left: 1px solid #fff !important;
+  }
+  .ant-typography {
+    margin: 0 !important;
+  }
+  //draggable
+  .draggable-wrapper {
+    width: 100%;
+  }
+  .collapse-content {
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    top: -6px;
+    padding: 0 42px;
+    table {
+      width: 100% !important;
+      tr {
+        td:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+  .anticon.anticon-plus-circle {
+    color: #fff !important;
+  }
+
+  .collapse-content.show-panel {
+    max-height: 200px;
+    transition: max-height 0.25s ease-in;
+  }
+  .draggable-panel.show-panel {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .add-random-question {
+    background-color: #fff;
+    min-height: 70px;
+    border-radius: 4px;
+    width: 100%;
+    margin: 6px 0;
+    padding: 20px;
+    .ant-form-item {
+      margin-bottom: 0 !important;
+      margin-top: 6px;
+    }
+    .ant-divider-horizontal {
+      margin: 6px 0 !important;
+    }
+  }
+  .draggable-panel {
+    background-color: #fff;
+    min-height: 70px;
+    border-radius: 4px;
+    width: 100%;
+    margin: 6px 0;
+    transition: margin-bottom 1s ease;
+    .ant-space-item {
+      width: 100%;
+      .draggable-pannel-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .draggable-pannel-item-header {
+        margin-left: 18px !important;
+      }
+      .draggable-pannel-item-option span {
+        margin: 0 16px !important;
+      }
+    }
+  }
+  .ant-dropdown-trigger {
+    position: relative;
+  }
+  .ant-dropdown-trigger .anticon-down {
+    box-sizing: content-box !important;
+    color: #fff !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+  }
+}

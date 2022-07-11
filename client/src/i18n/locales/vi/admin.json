@@ -1,0 +1,23 @@
+{
+    "User": "Người dùng",
+    "Setting": "Cài đặt",
+    "Hello": "Xin chào",
+    "Name": "Tên",
+    "Action": "Hành động",
+    "Notification": "Thông báo",
+    "Are_you_sure_you_want_to_delete_user": "Bạn có muốn xóa người dùng",
+    "Delete": "Xóa",
+    "Cancel": "Hủy",
+    "Delete_successful": "Xóa thành công",
+    "Delete_failure": "Xóa thất bại",
+    "Enter_keywords": "Nhập từ khóa...",
+    "Search": "Tìm kiếm",
+    "Edit": "Chỉnh sửa",
+    "Edit_user": "Chỉnh sửa người dùng",
+    "Password": "Mật khẩu",
+    "Save": "Lưu",
+    "Logout": "Đăng xuất",
+    "The_Name_field_is_required": "Tên không được để trống",
+    "The_Email_field_is_required": "Email không được để trống",
+    "The_Password_field_is_required": "Mật khẩu không được để trống"
+}

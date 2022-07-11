@@ -1,0 +1,40 @@
+{
+  "header": {
+    "dashboard": "Dashboard",
+    "category": "Category",
+    "test": "Test",
+    "test_campaign": "Test Campaign",
+    "question_bank": "Question bank",
+    "statistic": "Statistic",
+    "number_doing_test_IT": "Number doing Test IT",
+    "language": "VI",
+    "real_language": "EN",
+    "img": "https://app.testcenter.vn/images/lang/vietnam_flag.jpeg",
+    "customer_code": "Customer code",
+    "user_manual": "User manual",
+    "account_manager": "Account manager",
+    "profile_info": "Profile info",
+    "logout": "Logout",
+    "number_doing_test": "Number doing Test"
+  },
+  "button": {
+    "result": "Result",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "move": "Move",
+    "delete": "Delete",
+    "update": "Update",
+    "ok": "OK",
+    "yes": "Yes",
+    "copy_link": "Copy link",
+    "setting": "Setting",
+    "duplicate": "Duplicate",
+    "export_excel": "Export excel",
+    "print": "Print"
+  },
+  "choose": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}

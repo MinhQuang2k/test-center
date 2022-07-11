@@ -1,0 +1,36 @@
+.admin {
+    .ant-table-wrapper {
+        width: 100%;
+    }
+
+    .ant-layout-header {
+        background: #fff;
+    }
+
+    .logo {
+        width: 80%;
+        margin: 5px 10px;
+    }
+
+    .ant-layout-content {
+        margin: 20px 40px;
+        min-height: 90vh
+    }
+
+    .language {
+        width: 30px;
+        margin: 10px;
+    }
+
+
+}
+
+.user_modal {
+    .ant-btn {
+        margin-left: 10px !important;
+    }
+
+    .ant-form-item-label {
+        width: 85px;
+    }
+}

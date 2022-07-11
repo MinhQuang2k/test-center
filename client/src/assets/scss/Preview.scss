@@ -1,0 +1,24 @@
+.preview {
+  .ant-col p:first-child {
+    color: $TextMuted;
+  }
+
+  .white_bg {
+    height: 100%;
+
+    .ant-btn-primary {
+      padding: 4px 15px;
+      min-height: 32px;
+    }
+
+  }
+
+  span {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  .ant-btn-default {
+    height: 45px;
+  }
+}

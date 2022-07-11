@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.vue": "vue",
+    "stdio.h": "c",
+    "string.h": "c",
+    "malloc.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,0 +1,40 @@
+{
+  "header": {
+    "dashboard": "Tổng quan",
+    "category": "Nhóm đề thi",
+    "test": "Đề thi",
+    "test_campaign": "Đợt thi tuyển",
+    "question_bank": "Ngân hàng đề",
+    "statistic": "Thống kê",
+    "customer_code": "Mã khách hàng",
+    "number_doing_test_IT": "Số lượt thi Test IT",
+    "account_manager": "Quản lý tài khoản",
+    "profile_info": "Thông tin cá nhân",
+    "logout": "Đăng xuất",
+    "user_manual": "Hướng dẫn sử dụng",
+    "language": "EN",
+    "real_language": "VI",
+    "img": "https://app.testcenter.vn/images/lang/uk_flag.png",
+    "number_doing_test": "Số lượt thi"
+  },
+  "button": {
+    "result": "Kết Quả",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "edit": "Sửa",
+    "move": "Di chuyển",
+    "delete": "Xóa",
+    "update": "Cập Nhật",
+    "ok": "Đồng ý",
+    "yes": "Chấp nhận",
+    "copy_link": "Sao chép liên kết",
+    "setting": "Cài Đặt",
+    "duplicate": "Nhân bản",
+    "export_excel": "Xuất tệp excel",
+    "print": "In"
+  },
+  "choose": {
+    "yes": "Có",
+    "no": "Không"
+  }
+}

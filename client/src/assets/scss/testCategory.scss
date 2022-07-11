@@ -1,0 +1,379 @@
+@import './varible';
+
+// .container {
+//   width: 1140px;
+//   max-width: 100%;
+//   margin: 0 auto;
+//   padding: 12px;
+// }
+
+// INPUT SECTION
+.category-group {
+  .ant-input {
+    padding: 8px 0 8px 8px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    font-weight: 450 !important;
+    font-size: 1rem !important;
+  }
+
+  .ant-input,
+  .ant-input:hover,
+  .ant-input:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .btn-primary {
+    padding: 4px 12px !important;
+  }
+}
+
+//END INPUT SECTION
+
+//GROUP EXAM SECTION
+.pannel-header {
+  padding: 0 !important;
+
+  .header {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .child {
+    font-size: 12px;
+  }
+
+  .header,
+  .child {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+.test-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0;
+
+  .header {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: auto 0;
+  }
+
+  .ant-typography-edit {
+    display: none !important;
+  }
+
+  .ant-input {
+    border-radius: 4px !important;
+  }
+
+  .option {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 0.9rem;
+
+    .edit,
+    .move {
+      color: $primary-color;
+    }
+
+    .delete {
+      color: red;
+    }
+
+    div + div {
+      margin-left: 20px;
+    }
+
+    div:hover {
+      text-decoration: underline;
+      cursor: pointer;
+      opacity: 0.98;
+    }
+  }
+}
+
+.edit-mode,
+.form-footer {
+  display: flex;
+
+  button + button {
+    margin-left: 20px;
+  }
+
+  .ant-btn.btn-gray,
+  .ant-btn.btn-primary {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 48px;
+  }
+
+  .ant-btn.btn-primary {
+    color: #fff;
+  }
+
+  .ant-btn.btn-gray:hover {
+    color: #000;
+  }
+
+  .ant-btn.btn-primary:hover {
+    color: #fff;
+  }
+
+  .ant-form-item-control-input-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+.btn-outline-primary {
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid $primary-color !important;
+  color: $primary-color;
+}
+
+.btn-primary:hover,
+.ant-input-search-button:focus,
+.ant-input-search-button:hover {
+  outline: none !important;
+  background-color: $primary-color-hover !important;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:hover {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.btn-primary-inverse {
+  background-color: $light-color !important;
+  color: $primary-color !important;
+  border: none !important;
+  border-radius: 5px !important;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  outline: none !important;
+  background-color: $primary-color-hover !important;
+}
+
+.btn-primary {
+  background-color: $primary-color !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.btn-gray {
+  color: #000;
+  background-color: $btn-background-gray !important;
+  border-radius: 5px !important;
+  border: none !important;
+}
+
+.btn-primary-inverse:hover {
+  background-color: $primary-light-hover !important;
+}
+
+.tab-style {
+  .ant-tabs-nav::before {
+    display: none;
+  }
+
+  .ant-tabs-tab {
+    color: $text-disable !important;
+  }
+
+  .ant-tabs-ink-bar {
+    background: $primary-color !important;
+  }
+
+  .ant-tabs-tab-btn {
+    font-weight: 500;
+    color: $primary-color !important;
+  }
+
+  .category-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .ant-collapse-header {
+    padding: 16px 40px 16px 16px !important;
+  }
+
+  .ant-collapse-content-box {
+    padding: 0 16px 24px 24px !important;
+  }
+
+  .ant-collapse-extra {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0 !important;
+
+    .anticon {
+      margin: 0 12px !important;
+    }
+  }
+
+  .anticon.anticon-delete,
+  .anticon.anticon-edit,
+  .anticon.anticon-right,
+  .anticon.anticon-export {
+    font-size: 16px !important;
+  }
+
+  .anticon + .anticon {
+    margin: 0 20px !important;
+  }
+
+  .anticon.anticon-delete {
+    color: red;
+  }
+
+  .anticon.anticon-exclamation-circle {
+    width: 68px;
+    height: 68px;
+    font-size: 68px;
+    margin-bottom: 30px;
+  }
+
+  .ant-collapse-item {
+    background-color: #fff !important;
+    border-radius: 5px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .ant-divider-horizontal {
+    margin: 0 0 12px 0 !important;
+  }
+
+  .ant-modal-body {
+    .form-footer {
+      margin-top: 40px !important;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  .ant-modal-content {
+    border-radius: 5px !important;
+    overflow: hidden;
+  }
+
+  .ant-modal-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .ant-modal-footer {
+    border-top: 0 !important;
+  }
+
+  .ant-modal-confirm-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ant-btn-default {
+    min-width: 36px !important;
+    min-height: 36px !important;
+  }
+
+  .ant-input-group-addon {
+    z-index: 1 !important;
+    padding-right: 3px !important;
+    background-color: #fff !important;
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+  }
+
+  .ant-input-search-button {
+    border-radius: 4px !important;
+    background-color: $primary-color !important;
+    border: none !important;
+    color: #fff !important;
+  }
+}
+
+//End GROUP EXAM SECTION
+
+//START QUESTION GROUP SECTION
+.question {
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+
+    &-header {
+      margin: 12px;
+
+      .ant-typography {
+        left: 0;
+        margin: 0 !important;
+      }
+
+      .ant-input {
+        border-radius: 4px !important;
+      }
+
+      .ant-typography-edit {
+        display: none !important;
+      }
+    }
+
+    &-option span {
+      cursor: pointer;
+    }
+  }
+}
+
+.question-item.question-item-title {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  h3 {
+    margin-bottom: 0 !important;
+  }
+  .ant-skeleton-paragraph {
+    display: none;
+  }
+  .ant-skeleton-element .ant-skeleton-button {
+    min-width: 0px !important;
+  }
+  .c-button-quetionGroup {
+    width: 40px;
+  }
+  .c-button-center {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+////end Question

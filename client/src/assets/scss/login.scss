@@ -1,0 +1,101 @@
+.CarouselLogin {
+    .slick-slider {
+        height: 100vh;
+        background: #f0f6ff !important;
+
+        img {
+            margin: 30px auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        p,
+        h4 {
+            text-align: center;
+            margin: 20px;
+        }
+
+        h4 {
+            color: #05216f;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.75rem;
+        }
+
+
+    }
+
+    .ant-carousel .slick-dots li.slick-active button {
+        background-color: #0e2973 !important;
+        height: 5px;
+        border-radius: 3px;
+    }
+
+    .ant-carousel .slick-dots li button {
+        background-color: #7f8fb9;
+        border-radius: 3px;
+    }
+}
+
+.login {
+    h3 {
+        font-weight: 600 !important;
+        font-size: 2rem !important;
+        line-height: 2.375rem !important;
+        color: #0a2161;
+        text-align: center;
+    }
+
+    .login_form {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 20vh;
+    }
+
+    a {
+        font-weight: 700 !important;
+        color: #2c4a9f;
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    .ant-btn {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    svg {
+        color: rgba(0, 0, 0, .45);
+    }
+
+    .anticon-mail,
+    .anticon-lock,
+    .anticon-user {
+        margin-right: 3px;
+    }
+
+    .ant-select {
+        width: 100px;
+
+        img,
+        .img_fluid {
+            width: 30px !important;
+        }
+    }
+
+    .Select {
+        display: flex;
+        justify-content: flex-end
+    }
+
+    .text_mute {
+        margin-bottom: 30px;
+    }
+}
+
+.register_form {
+    margin-top: 15vh !important;
+}
